@@ -7,30 +7,28 @@ const DUMMY_PLACES = [
   {
     id: "p1",
     title: "Empire State Building",
+    description: "One of the most famous sky scrapers in the world!",
     imageUrl:
-      "https://images.unsplash.com/photo-1555109307-f7d9da25c244?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=kit-suman-WQwtk_t4oJI-unsplash.jpg&w=640",
-    description:
-      "Iconic, art deco office tower from 1931 with exhibits & observatories on the 86th & 102nd floors.",
-    address: "20 W 34th St, New York, NY 10001, United States",
-    creator: "u1",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/NYC_Empire_State_Building.jpg/640px-NYC_Empire_State_Building.jpg",
+    address: "20 W 34th St, New York, NY 10001",
     location: {
-      lat: 40.7484445,
-      lng: -73.9878531,
+      lat: 40.7484405,
+      lng: -73.9878584,
     },
+    creator: "u1",
   },
   {
     id: "p2",
-    title: "Taj Mahal",
+    title: "Emp. State Building",
+    description: "One of the most famous sky scrapers in the world!",
     imageUrl:
-      "https://images.unsplash.com/photo-1585135497273-1a86b09fe70e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=darsh-nishar-0pG9XKXCj4s-unsplash.jpg&w=640",
-    description:
-      "17th-century, Mughal-style, marble mausoleum with minarets, a mosque & famously symmetrical gardens.",
-    address: "Dharmapuri, Forest Colony, Tajganj, Agra, Uttar Pradesh 282001",
-    creator: "u2",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/NYC_Empire_State_Building.jpg/640px-NYC_Empire_State_Building.jpg",
+    address: "20 W 34th St, New York, NY 10001",
     location: {
-      lat: 27.1751496,
-      lng: 78.0399535,
+      lat: 40.7484405,
+      lng: -73.9878584,
     },
+    creator: "u2",
   },
 ];
 
